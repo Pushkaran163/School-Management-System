@@ -9,7 +9,7 @@ public class UserDatabase {
 
     public UserDatabase() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/school_management", "root", "Sayanyellow12!_");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/school_management", "root", "enter your password here");
         } catch (SQLException e) {
             e.printStackTrace();
         }
